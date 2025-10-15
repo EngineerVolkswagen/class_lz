@@ -26,7 +26,7 @@ class Oktagon:
     def square_oktagon(self):
         return 2 * self.K * (self.side_oktagon**2)
     
-    def risuem_huetu(self):
+    def drawing_graphik(self):
         center = (0.0, 0.0)
         radius1,s2 = oktagon1.radius_square_circumscribed() 
         radius2,s2 = oktagon1.radius_square_inscribed() 
@@ -64,5 +64,5 @@ class Oktagon:
 
 oktagon1 = Oktagon(12)
 print(oktagon1.radius_square_circumscribed()," hgdjsdfk ", oktagon1.radius_square_inscribed(), " hjvsdk ", oktagon1.square_oktagon())
-oktagon1.risuem_huetu()
+oktagon1.drawing_graphik()
 
